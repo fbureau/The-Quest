@@ -99,6 +99,7 @@ seulement une intervention, c'est toujours l'arbitre qui tranche.
 ```
 CLAUDE.md            point d'entrée — c'est lui qui guide les sessions
 MJ.md                les règles d'arbitrage du Maître du Jeu
+STYLE.md             comment s'écrit un chapitre (le MJ le lit chaque jour)
 ROUTINE-MJ.md        la procédure du tick quotidien (routine cloud)
 ROUTINE-JOUEUR.md    gabarit du rappel quotidien optionnel
 world/               prémisse, état, joueurs, mystère scellé

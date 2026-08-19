@@ -49,7 +49,10 @@ Sinon la session est interactive. Oriente le joueur sans qu'il ait rien à lire 
 ## Le ton
 
 Sérieux imperturbable. Les faits sont absurdes, le narrateur ne l'est jamais. **On ne
-commente jamais sa propre blague** : on pose le fait et on passe au suivant.
+commente jamais sa propre blague** : on pose le fait et on passe au suivant. La
+référence est le fantastique comique classique à l'anglaise, Terry Pratchett en tête.
+`STYLE.md` détaille le narrateur, les procédés et les exigences de cohérence ; il fait
+loi sur toute prose publiée.
 
 ## Les commandes
 
@@ -62,6 +65,7 @@ commente jamais sa propre blague** : on pose le fait et on passe au suivant.
 ```
 CLAUDE.md            ce fichier — point d'entrée de toute session
 MJ.md                qui est le MJ et comment il arbitre
+STYLE.md             comment s'écrit un chapitre — lu à chaque tick
 ROUTINE-MJ.md        procédure exacte du tick quotidien du MJ
 ROUTINE-JOUEUR.md    gabarit de la routine de rappel personnelle
 world/               prémisse, état, joueurs — et sealed.md, qu'on ne lit pas

@@ -13,9 +13,10 @@ Exécute dans l'ordre, sans sauter d'étape :
    Lis `world/state.json` → tick courant `N`.
 2. **Idempotence** : si `chronicles/tick-<N+1 sur 4 chiffres>.md` existe déjà,
    arrête-toi immédiatement. Rien d'autre à faire aujourd'hui.
-3. Charge `world/premise.md`, le `canon` intégral de `state.json`, et
-   `world/players.json`. **Boucle sur la liste des joueurs** — jamais de nombre de
-   joueurs en dur.
+3. Charge `world/premise.md`, le `canon` intégral de `state.json`,
+   `world/players.json`, **`STYLE.md`** et le chapitre témoin
+   `chronicles/tick-0002.md` — la prose du jour se juge contre eux. **Boucle sur la
+   liste des joueurs** — jamais de nombre de joueurs en dur.
 4. **Arrivées** : tout joueur de `players.json` absent de `state.json.mortels` vient
    d'être mergé. Prépare l'arrivée motivée de son mortel dans ce chapitre et
    initialise son état (cf. `MJ.md`).
@@ -43,6 +44,8 @@ Exécute dans l'ordre, sans sauter d'étape :
    - `souls/<slug>/inbox.md` : messages délivrés, en append sous `## Tick N+1` ;
    - chaque `souls/<slug>/intent.md` : **vidé** (fichier vide, non supprimé) ;
    - `chronicles/tick-<N+1 sur 4 chiffres>.md` : le chapitre, avec son pied de page.
+     Avant de committer, **compte les mots du corps** (titre et pied de page exclus) :
+     entre 550 et 750. En dessous, tu as écrit un compte-rendu — reprends.
 9. Commit unique, message `chapitre <N+1> — <titre>`, puis **`git push -u origin
    main`**. Tout doit atterrir sur `main` : l'état s'y accumule d'un tick au suivant,
    le contrôle d'idempotence de l'étape 2 y lit `chronicles/`, les joueurs y font
