@@ -47,25 +47,25 @@ Exécute dans l'ordre, sans sauter d'étape :
    En cas d'échec réseau, réessaie jusqu'à 4 fois (2s, 4s, 8s, 16s). Si le push
    échoue pour cause de branche protégée, signale-le clairement : l'option « Allow
    unrestricted branch pushes » doit être activée pour cette routine.
-10. **Publie l'issue GitHub** du jour : titre = le titre du chapitre, corps = la
-    prose puis le pied de page. Ensuite, **un commentaire par perception privée**,
-    chacun mentionnant le `@github_handle` du joueur concerné — jamais dans le corps
-    de l'issue.
+10. **La publication est automatique.** Un workflow GitHub (`.github/workflows/
+    chapitre.yml`) se déclenche au push sur `main` : il crée l'issue du jour à
+    partir du fichier de chapitre — titre = la première ligne, corps = le reste —
+    puis poste un commentaire par joueur actif, repris du bloc `## Tick N+1` de son
+    `memory.md`, en le mentionnant. **Tu n'appelles donc aucun outil GitHub et tu ne
+    postes rien toi-même** : écris bien tes fichiers, pousse, et vérifie ensuite que
+    l'issue est parue.
 
-    Trois voies, dans cet ordre, la première qui marche :
-    - les outils `mcp__github__issue_write` et `mcp__github__add_issue_comment` ;
-    - à défaut, l'API REST — `curl -sS -X POST -H "Authorization: Bearer $GITHUB_TOKEN"
-      -H "Accept: application/vnd.github+json"
-      https://api.github.com/repos/fbureau/The-Quest/issues -d @corps.json`, puis
-      `.../issues/<n>/comments` pour chaque perception privée ;
-    - si aucune des deux n'est disponible, **le chapitre est quand même poussé** — il
-      fait foi dans `chronicles/` — et tu écris en clair, dans ton compte-rendu de
-      fin de run, que l'issue reste à publier et pourquoi. Ne considère jamais le
-      tick comme raté pour autant : le dépôt est la source de vérité, l'issue n'est
-      que la distribution.
-11. Si `(N+1) % 7 == 0` : publie une seconde issue, `Entretien de mi-parcours —
-    exercice <(N+1)/7>` : la saga depuis le tick 1 en 800 mots maximum, et
-    enregistre-la dans `chronicles/panthéon-<k>.md`.
+    Si elle n'est pas parue au bout de deux minutes, dis-le en clair dans ton
+    compte-rendu de fin de run, avec la cause si tu peux la lire (`gh run list` n'est
+    pas disponible ; regarde l'onglet Actions du dépôt si tu as un accès web). Le
+    tick n'est pas raté pour autant : le chapitre poussé dans `chronicles/` fait foi,
+    l'issue n'est que la distribution.
+
+11. Si `(N+1) % 7 == 0` : écris l'entretien de mi-parcours dans
+    `chronicles/entretien-<(N+1)/7>.md` — première ligne `# Entretien de mi-parcours
+    — exercice <k>`, puis la saga depuis le tick 1 en 800 mots maximum. Le même
+    workflow le publiera en issue au push. Même exigence de prose, aucune
+    information privée.
 12. **Au tick 11, la Procession a lieu**, qu'on soit prêt ou non. Ce qui s'y passe
     découle entièrement de l'état de Mornebief à ce moment-là.
 

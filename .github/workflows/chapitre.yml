@@ -1,0 +1,47 @@
+name: Publier le chapitre
+
+# Le MJ écrit des fichiers et les pousse ; la publication en issue suit toute
+# seule. Ainsi la routine du MJ n'a besoin d'aucun outil GitHub ni d'aucun
+# jeton : elle n'a qu'à committer sur main.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'chronicles/**'
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Repérer les chapitres ajoutés par ce push
+        id: nouveaux
+        run: |
+          avant='${{ github.event.before }}'
+          if [ -z "$avant" ] || [ "$avant" = "0000000000000000000000000000000000000000" ] \
+             || ! git cat-file -e "$avant^{commit}" 2>/dev/null; then
+            avant="$(git rev-parse HEAD~1 2>/dev/null || true)"
+          fi
+          if [ -z "$avant" ]; then
+            echo "premier commit du dépôt, rien à publier"
+            echo "fichiers=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          fichiers="$(git diff --name-only --diff-filter=A "$avant" '${{ github.sha }}' \
+                      -- 'chronicles/*.md' | tr '\n' ' ')"
+          echo "ajoutés : ${fichiers:-aucun}"
+          echo "fichiers=$fichiers" >> "$GITHUB_OUTPUT"
+
+      - name: Publier
+        if: steps.nouveaux.outputs.fichiers != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/publier_chapitre.py ${{ steps.nouveaux.outputs.fichiers }}
