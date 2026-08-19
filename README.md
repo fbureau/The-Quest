@@ -18,6 +18,32 @@ Chaque jour, un Maître du Jeu automatisé résout ce que chacun a tenté et pub
 chapitre en issue GitHub : deux minutes de lecture. Si vous ne dites rien, votre
 mortel vit sa vie — **l'absence n'est jamais pénalisée**, c'est un congé sabbatique.
 
+## À quoi ça ressemble
+
+Un chapitre, tous les personnages entrelacés, narrateur omniscient — le lecteur voit
+ce que les mortels ignorent :
+
+> Barnabé n'avait pas prévu d'entrer dans la cave. Il s'y trouvait pourtant, une
+> chandelle à la main, parce que la porte s'était ouverte toute seule et qu'il avait
+> jugé impoli de ne pas y répondre.
+>
+> Dans les hauteurs, le Dieu des Poignées de Porte considérait son travail avec une
+> satisfaction mesurée. C'était la première fois en onze jours qu'une intervention
+> aboutissait. Il ignorait encore que la cave contenait le percepteur.
+
+Puis, en pied de chapitre et seulement là, ce que la mécanique a donné :
+
+```
+── Barnabé (Dieu des Poignées de Porte) · cave · peur 6 · Ferveur 4
+   ⚡ "n'entre pas" → NON ENTENDU (score 5, jet 13)
+   ✨ "la porte cède" → ENTENDU — Ferveur +1
+── Mornebief · J-8 avant la Procession · quotas 4/6
+```
+
+La **Ferveur**, c'est la foi de votre mortel en vous : elle monte quand un conseil
+suivi tourne bien, elle tombe quand il tourne mal. À zéro, il n'entend plus rien —
+vous voyez tout et vous ne pouvez plus rien.
+
 ## Comment jouer
 
 **Première fois :**
@@ -59,6 +85,14 @@ votre téléphone. Deux lignes suffisent, c'est prévu pour.
 - **La Procession a lieu au chapitre 11**, qu'on soit prêt ou non.
 - On ne lit pas les dossiers `souls/` des autres, ni `world/sealed.md` — la réponse
   du mystère, scellée jusqu'au dernier chapitre.
+
+## Pourquoi personne ne peut tricher
+
+Trois couches, chacune dans son propre contexte : votre mortel raisonne sur **votre**
+machine, vous lui parlez depuis la vôtre, et l'arbitrage tourne ailleurs, chez le MJ.
+Aucune fuite d'information n'est possible entre personnages — ce n'est pas une règle
+de politesse, c'est la structure. Et comme votre session n'écrit jamais une action,
+seulement une intervention, c'est toujours l'arbitre qui tranche.
 
 ## Ce qu'il y a dans le dépôt
 
