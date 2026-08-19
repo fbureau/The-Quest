@@ -12,3 +12,15 @@ naturel de le faire.
 Maître Corbin lui a commandé quarante tréteaux, les bancs et deux buffets pour la
 nouvelle salle, payables à la livraison ; il a acheté le chêne à crédit à Vaudroy,
 il a trois jours de retard, et il n'en a parlé à personne.
+
+## Tick 2
+
+- Parti livrer un tréteau à l'auberge, s'est arrêté en route pour redresser une
+  charnière que personne ne lui avait demandée. Toujours trois jours de retard sur
+  les quarante tréteaux de Corbin.
+- Le percepteur Dulac l'a interrogé à l'auberge, poliment, registre ouvert. Aubry a
+  répondu ce qu'il savait : le jour de sa dernière visite au sanctuaire, le bahut de
+  la prieure, la ferrure descellée, et la phrase de Gastonne — qu'il fallait faire
+  vite, parce qu'après on ne pourrait plus entrer.
+- Corbin, qui comptait les tréteaux à trois pas, s'est arrêté de compter. Aubry a
+  senti le silence et l'a mis sur le compte de son retard.

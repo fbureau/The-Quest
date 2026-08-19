@@ -1,11 +1,14 @@
 {
-  "tick": 1,
+  "tick": 2,
   "procession_au_tick": 11,
   "monde": {
     "lieu": "Mornebief",
-    "jours_avant_procession": 10,
+    "jours_avant_procession": 9,
     "reliquaire": "vide, refermé, personne n'a prononcé le mot vol",
-    "quotas": { "utilises": 0, "plafond": 0 }
+    "quotas": {
+      "utilises": 0,
+      "plafond": 6
+    }
   },
   "figures": {
     "gastonne": "Prieure. Sait. Ne dort plus. Sa version change selon l'interlocuteur.",
@@ -21,7 +24,32 @@
     "Vasque en a parlé à l'aubergiste Corbin, qui a compris ce qu'une annulation lui coûterait.",
     "Personne n'a encore prononcé le mot vol à voix haute ; chacun agit de son côté et ment un peu.",
     "Le percepteur Dulac est arrivé de la capitale pour établir l'assiette de la taxe de pèlerinage, et reste jusqu'à la Procession.",
-    "Aucun portefeuille divin n'était attribué sur Mornebief au tick 1 ; le Panthéon a rouvert l'exercice."
+    "Aucun portefeuille divin n'était attribué sur Mornebief au tick 1 ; le Panthéon a rouvert l'exercice.",
+    "Tick 2 : le Panthéon a attribué les Portes Qui Grincent (mortel Tibaut, sonneur) et les Objets Tombés Derrière un Meuble (mortel Aubry, menuisier).",
+    "Gastonne a supprimé l'office de nuit il y a trois jours et refuse d'en donner la raison ; Tibaut le lui a réclamé et s'est fait éconduire.",
+    "Depuis le clocher, Tibaut a entendu la porte du cellier grincer deux fois dans la nuit ; il n'en a parlé à personne.",
+    "Devant le percepteur Dulac et Maître Corbin, Aubry a répété la phrase de Gastonne : il fallait faire vite, parce qu'après on ne pourrait plus entrer.",
+    "Dulac a noté cette phrase dans son registre. Corbin l'a entendue.",
+    "Aubry a trois jours de retard sur les quarante tréteaux de Corbin, avec du chêne acheté à crédit à Vaudroy."
   ],
-  "mortels": {}
+  "mortels": {
+    "fbureau": {
+      "mortel": "Tibaut",
+      "lieu": "sanctuaire",
+      "peur": 3,
+      "fatigue": 4,
+      "courage": 2,
+      "ferveur": 3,
+      "veut": "récupérer l'office de nuit que Gastonne lui a supprimé"
+    },
+    "gpuj": {
+      "mortel": "Aubry",
+      "lieu": "auberge",
+      "peur": 4,
+      "fatigue": 6,
+      "courage": 1,
+      "ferveur": 3,
+      "veut": "récupérer les outils de son père, et livrer les quarante tréteaux de Corbin"
+    }
+  }
 }
