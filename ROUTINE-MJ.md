@@ -51,6 +51,18 @@ Exécute dans l'ordre, sans sauter d'étape :
     prose puis le pied de page. Ensuite, **un commentaire par perception privée**,
     chacun mentionnant le `@github_handle` du joueur concerné — jamais dans le corps
     de l'issue.
+
+    Trois voies, dans cet ordre, la première qui marche :
+    - les outils `mcp__github__issue_write` et `mcp__github__add_issue_comment` ;
+    - à défaut, l'API REST — `curl -sS -X POST -H "Authorization: Bearer $GITHUB_TOKEN"
+      -H "Accept: application/vnd.github+json"
+      https://api.github.com/repos/fbureau/The-Quest/issues -d @corps.json`, puis
+      `.../issues/<n>/comments` pour chaque perception privée ;
+    - si aucune des deux n'est disponible, **le chapitre est quand même poussé** — il
+      fait foi dans `chronicles/` — et tu écris en clair, dans ton compte-rendu de
+      fin de run, que l'issue reste à publier et pourquoi. Ne considère jamais le
+      tick comme raté pour autant : le dépôt est la source de vérité, l'issue n'est
+      que la distribution.
 11. Si `(N+1) % 7 == 0` : publie une seconde issue, `Entretien de mi-parcours —
     exercice <(N+1)/7>` : la saga depuis le tick 1 en 800 mots maximum, et
     enregistre-la dans `chronicles/panthéon-<k>.md`.
