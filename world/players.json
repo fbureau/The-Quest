@@ -8,5 +8,9 @@
     "active": "false = divinité en congé sabbatique ; son mortel sort de scène et peut revenir",
     "joined_at_tick": "le MJ fait entrer le mortel au chapitre suivant"
   },
-  "players": []
+  "players": [
+    { "slug": "fbureau", "mortal": "Tibaut", "domain": "les Portes Qui Grincent",
+      "github_handle": "fbureau", "email": "bureaufrancois@gmail.com", "active": true,
+      "joined_at_tick": 1 }
+  ]
 }
