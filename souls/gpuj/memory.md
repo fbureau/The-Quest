@@ -24,3 +24,5 @@ il a trois jours de retard, et il n'en a parlé à personne.
   vite, parce qu'après on ne pourrait plus entrer.
 - Corbin, qui comptait les tréteaux à trois pas, s'est arrêté de compter. Aubry a
   senti le silence et l'a mis sur le compte de son retard.
+- Il se souvient, sans y attacher d'importance, que Gastonne était pressée le jour du
+  bahut, et qu'elle regardait la porte pendant qu'il travaillait.
