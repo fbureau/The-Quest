@@ -43,10 +43,19 @@ Exécute dans l'ordre, sans sauter d'étape :
    - `souls/<slug>/inbox.md` : messages délivrés, en append sous `## Tick N+1` ;
    - chaque `souls/<slug>/intent.md` : **vidé** (fichier vide, non supprimé) ;
    - `chronicles/tick-<N+1 sur 4 chiffres>.md` : le chapitre, avec son pied de page.
-9. Commit unique, message `chapitre <N+1> — <titre>`, puis `git push -u origin main`.
-   En cas d'échec réseau, réessaie jusqu'à 4 fois (2s, 4s, 8s, 16s). Si le push
-   échoue pour cause de branche protégée, signale-le clairement : l'option « Allow
-   unrestricted branch pushes » doit être activée pour cette routine.
+9. Commit unique, message `chapitre <N+1> — <titre>`, puis **`git push -u origin
+   main`**. Tout doit atterrir sur `main` : l'état s'y accumule d'un tick au suivant,
+   le contrôle d'idempotence de l'étape 2 y lit `chronicles/`, les joueurs y font
+   leur `git pull`, et le workflow de publication ne se déclenche que là.
+   - Échec réseau : réessaie jusqu'à 4 fois (2s, 4s, 8s, 16s).
+   - **Push refusé** (branche protégée, ou routine restreinte aux branches
+     `claude/*`) : ne perds surtout pas le travail. Pousse le commit sur la branche
+     de session, ouvre une PR vers `main` intitulée `chapitre <N+1> — <titre>`, et
+     dis en tête de ton compte-rendu, en une ligne sans détour, que **le tick n'est
+     pas sur `main` et que le prochain run repartira d'un état périmé tant que la PR
+     n'est pas mergée**. La correction durable est l'option « Allow unrestricted
+     branch pushes » sur la routine ; signale-la à chaque fois que le cas se
+     produit.
 10. **La publication est automatique.** Un workflow GitHub (`.github/workflows/
     chapitre.yml`) se déclenche au push sur `main` : il crée l'issue du jour à
     partir du fichier de chapitre — titre = la première ligne, corps = le reste —
