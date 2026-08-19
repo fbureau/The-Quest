@@ -1,12 +1,12 @@
 {
-  "players": [
-    {
-      "slug": "kael",
-      "character": "Kael Varga",
-      "github_handle": null,
-      "email": null,
-      "active": true,
-      "joined_at_tick": 0
-    }
-  ]
+  "_format": {
+    "slug": "identifiant du joueur, minuscules, sert de nom de dossier dans souls/",
+    "mortal": "nom du mortel assigné",
+    "domain": "le portefeuille de la divinité, tel qu'attribué par le Panthéon",
+    "github_handle": "sert à mentionner le joueur et à le reconnaître en session",
+    "email": "optionnel — reconnaissance via git config user.email",
+    "active": "false = divinité en congé sabbatique ; son mortel sort de scène et peut revenir",
+    "joined_at_tick": "le MJ fait entrer le mortel au chapitre suivant"
+  },
+  "players": []
 }

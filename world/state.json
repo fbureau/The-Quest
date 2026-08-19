@@ -1,33 +1,27 @@
 {
   "tick": 1,
-  "temps": "T+11j 04h",
+  "procession_au_tick": 11,
   "monde": {
-    "lieu": "Le Thésée, en dérive autour de Khthôn",
-    "o2_heures": 58,
-    "reacteur": "hors ligne",
-    "sceaux_ouverts": 0,
-    "sceaux_total": 3
+    "lieu": "Mornebief",
+    "jours_avant_procession": 10,
+    "reliquaire": "vide, refermé, personne n'a prononcé le mot vol",
+    "quotas": { "utilises": 0, "plafond": 0 }
+  },
+  "figures": {
+    "gastonne": "Prieure. Sait. Ne dort plus. Sa version change selon l'interlocuteur.",
+    "corbin": "Aubergiste endetté pour agrandir la salle. Une annulation le ruine.",
+    "vasque": "Sergent. Veut que ça se règle vite et discrètement. Interroge sans expliquer.",
+    "dulac": "Percepteur, arrivé de la capitale avec un registre. Méthodique. Compte."
   },
   "canon": [
-    "Le Thésée, vaisseau de forage stellaire, dérive moteurs éteints depuis onze jours autour de l'étoile morte Khthôn.",
-    "Les ponts 5, 6 et 7 ont été scellés de l'intérieur par trois sceaux ; personne à bord n'avoue l'avoir fait.",
-    "L'oxygène ne se régénère plus : 58 heures de réserve au tick 1.",
-    "Un vieil homme absent du registre d'équipage a été trouvé endormi au pont 4 ; il dit s'appeler Ezra.",
-    "Ezra affirme que les sceaux protègent l'équipage, mais refuse de dire de quoi.",
-    "Le premier sceau, au pont 5, porte des marques de doigts côté intérieur.",
-    "Kael, chef d'exploitation, a touché le premier sceau au tick 1 ; le métal était tiède."
+    "Mornebief, six cents âmes sur un gué, vit entièrement des pèlerins venus voir le Doigt de Sainte Ombeline.",
+    "La Grande Procession, moitié du revenu annuel de la bourgade, a lieu au tick 11.",
+    "Il y a trois jours, le reliquaire a été retrouvé ouvert et vide au sanctuaire.",
+    "La prieure Gastonne a refermé le reliquaire et n'en a parlé qu'au sergent Vasque.",
+    "Vasque en a parlé à l'aubergiste Corbin, qui a compris ce qu'une annulation lui coûterait.",
+    "Personne n'a encore prononcé le mot vol à voix haute ; chacun agit de son côté et ment un peu.",
+    "Le percepteur Dulac est arrivé de la capitale pour établir l'assiette de la taxe de pèlerinage, et reste jusqu'à la Procession.",
+    "Aucun portefeuille divin n'était attribué sur Mornebief au tick 1 ; le Panthéon a rouvert l'exercice."
   ],
-  "personnages": {
-    "kael": {
-      "lieu": "pont 4",
-      "peur": 4,
-      "fatigue": 5,
-      "courage": 2,
-      "affinite": 0,
-      "desirs": [
-        "comprendre qui a scellé les ponts",
-        "ne plus jamais être enfermé"
-      ]
-    }
-  }
+  "mortels": {}
 }
