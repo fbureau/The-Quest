@@ -1,0 +1,33 @@
+{
+  "tick": 1,
+  "temps": "T+11j 04h",
+  "monde": {
+    "lieu": "Le Thésée, en dérive autour de Khthôn",
+    "o2_heures": 58,
+    "reacteur": "hors ligne",
+    "sceaux_ouverts": 0,
+    "sceaux_total": 3
+  },
+  "canon": [
+    "Le Thésée, vaisseau de forage stellaire, dérive moteurs éteints depuis onze jours autour de l'étoile morte Khthôn.",
+    "Les ponts 5, 6 et 7 ont été scellés de l'intérieur par trois sceaux ; personne à bord n'avoue l'avoir fait.",
+    "L'oxygène ne se régénère plus : 58 heures de réserve au tick 1.",
+    "Un vieil homme absent du registre d'équipage a été trouvé endormi au pont 4 ; il dit s'appeler Ezra.",
+    "Ezra affirme que les sceaux protègent l'équipage, mais refuse de dire de quoi.",
+    "Le premier sceau, au pont 5, porte des marques de doigts côté intérieur.",
+    "Kael, chef d'exploitation, a touché le premier sceau au tick 1 ; le métal était tiède."
+  ],
+  "personnages": {
+    "kael": {
+      "lieu": "pont 4",
+      "peur": 4,
+      "fatigue": 5,
+      "courage": 2,
+      "affinite": 0,
+      "desirs": [
+        "comprendre qui a scellé les ponts",
+        "ne plus jamais être enfermé"
+      ]
+    }
+  }
+}

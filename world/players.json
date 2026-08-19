@@ -1,0 +1,12 @@
+{
+  "players": [
+    {
+      "slug": "kael",
+      "character": "Kael Varga",
+      "github_handle": null,
+      "email": null,
+      "active": true,
+      "joined_at_tick": 0
+    }
+  ]
+}

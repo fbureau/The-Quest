@@ -1,0 +1,16 @@
+# Chronique — propriété des fichiers.
+#
+# Le cœur du jeu (MJ, routines, monde) se modifie par PR + 1 approbation.
+# Chaque joueur est propriétaire de son âme : /souls/<slug>/.
+# Les intent.md se poussent en direct, sans PR — la protection de branche
+# doit donc rester souple (voir README), et la routine MJ en est exclue.
+
+/CLAUDE.md          @fbureau
+/MJ.md              @fbureau
+/ROUTINE-MJ.md      @fbureau
+/ROUTINE-JOUEUR.md  @fbureau
+/world/             @fbureau
+/.claude/           @fbureau
+
+# --- âmes — une ligne par personnage, ajoutée par /rejoindre ---
+# /souls/kael/ — orphelin, en attente de reprise
