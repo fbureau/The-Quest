@@ -1,74 +1,108 @@
 # Chronique
 
-Un jeu narratif asynchrone à N joueurs. Chacun pilote — non : **conseille** —
-un personnage autonome dans un monde partagé. Personne ne donne d'ordre :
-chaque joueur est une voix intérieure que son personnage peut suivre ou
-ignorer. Un Maître du Jeu automatisé arbitre et publie chaque jour un
-chapitre de 500 mots, en issue GitHub.
+Un jeu de rôle par GitHub, à plusieurs, à distance, cinq minutes par jour.
 
-L'absence n'est jamais pénalisée : disparaissez deux semaines, votre
-personnage sera vivant et son histoire aura avancé.
+Chaque joueur a un personnage dans un monde partagé. Vous ne contrôlez pas
+votre personnage : vous êtes sa **voix intérieure**. Vous lui parlez, vous lui
+conseillez des choses — et il peut vous écouter ou non, selon son caractère.
 
-## Jouer
+Une fois par jour, un Maître du Jeu automatisé résout ce que chacun a tenté,
+fait avancer le monde, et publie un court chapitre (une issue GitHub, deux
+minutes de lecture). Personne n'est obligé d'être là : si vous ne dites rien,
+votre personnage vit sa vie, et vous n'êtes jamais pénalisé.
+
+## Comment jouer
+
+**Première fois :**
 
 ```
-git clone <ce repo>
+git clone https://github.com/fbureau/The-Quest
 cd The-Quest
 claude
 ```
 
-C'est tout. La session détecte qui vous êtes et vous guide (`CLAUDE.md`).
-Trois commandes existent, mais la session vous les proposera d'elle-même :
-`/rejoindre`, `/briefing`, `/murmurer`.
+Rien d'autre à savoir : la session vous reconnaît (ou pas) et vous guide —
+création de personnage par un court entretien, ou reprise d'un personnage
+libre.
 
-Depuis un téléphone, sans session : éditez `souls/<votre-slug>/intent.md`
-dans l'app GitHub — deux lignes suffisent. **L'interface est le fichier, pas
-l'outil.**
+**Ensuite, une journée type :**
 
-## L'architecture en trois couches
+1. Le matin, le chapitre du jour est publié dans les
+   [issues](../../issues). Vous le lisez, ou pas.
+2. Quand vous voulez, ouvrez `claude` dans le dépôt : votre personnage vous
+   raconte sa journée, et vous discutez avec lui. Vous pouvez le mettre en
+   garde, l'encourager, le contredire — il a son propre avis.
+3. Ce qui ressort de la conversation est déposé dans
+   `souls/<votre-personnage>/intent.md` : c'est votre « murmure » du jour.
+4. Le lendemain matin, le MJ résout tout le monde en même temps et publie la
+   suite.
 
-| Couche | Où ça tourne | Rôle |
-|---|---|---|
-| Le personnage | Claude Code du joueur | Décide, ressent, agit |
-| Le joueur | conversation avec son personnage | Conseille, argumente, ne commande pas |
-| Le MJ | routine cloud dédiée | Arbitre, résout, raconte |
+**Pas le temps d'ouvrir une session ?** Éditez directement
+`souls/<votre-personnage>/intent.md` depuis l'app GitHub sur votre téléphone.
+Deux lignes suffisent, c'est prévu pour.
 
-L'isolation est structurelle : le cerveau de chaque personnage vit sur la
-machine de son joueur. Aucune fuite d'information entre personnages.
+**Pas là pendant deux semaines ?** Aucun problème. Votre personnage aura
+continué à vivre selon son caractère, et vous reprendrez l'histoire en cours.
 
-## Mise en service (fondateur)
+## Les commandes (la session les propose d'elle-même)
 
-1. **Relire/réécrire `world/premise.md` et `world/sealed.md`** à plusieurs,
-   une demi-heure, pas plus. Le monde se découvre tick par tick. Une version
-   d'amorce est en place ; `sealed.md` ne se relit plus ensuite.
-2. **Tester `/rejoindre`** en créant un personnage de test — c'est la
-   première chose à faire tourner. Un personnage d'amorce, Kael, existe déjà
-   (orphelin, reprenable).
-3. **Jouer le tick MJ à la main**, en session interactive (« Lis
-   ROUTINE-MJ.md et exécute-le »), sur 3 ticks. Vérifier que le canon tient
-   et que la chronique respecte les 500 mots.
-4. **Créer la routine MJ** sur un compte dédié, quotidienne (8h par ex.),
-   champ du prompt en une ligne :
+| Commande | Ce qu'elle fait |
+|---|---|
+| `/rejoindre` | Créer un personnage, ou en reprendre un libre |
+| `/briefing` | Le point du jour + discussion avec votre personnage |
+| `/murmurer` | Écrire votre conseil du jour et l'envoyer |
+
+## Les règles en quatre lignes
+
+- Vous **conseillez**, vous ne commandez pas. Votre personnage décide.
+- Seul le MJ écrit l'histoire, l'état du monde et les mémoires.
+- On ne lit pas les dossiers `souls/` des autres, ni `world/sealed.md`
+  (la solution du mystère, scellée jusqu'au dernier chapitre).
+- L'absence n'est jamais punie.
+
+## Ce qu'il y a dans le dépôt
+
+```
+CLAUDE.md            point d'entrée — c'est lui qui guide les sessions
+MJ.md                les règles d'arbitrage du Maître du Jeu
+ROUTINE-MJ.md        la procédure du tick quotidien (routine cloud)
+ROUTINE-JOUEUR.md    gabarit du rappel quotidien optionnel
+world/               prémisse, état du monde, joueurs, mystère scellé
+souls/<slug>/        votre personnage : fiche, mémoire, intention, courrier
+chronicles/          un chapitre par jour
+```
+
+---
+
+## Administration (à lire seulement si vous installez le jeu)
+
+Ordre de mise en route, à ne pas brûler :
+
+1. **Écrire le monde à plusieurs** — 30 minutes maximum : `world/premise.md`
+   (la situation, trois lois, le ton) et `world/sealed.md` (la solution du
+   mystère — plus personne ne l'ouvre ensuite). Une version d'amorce est
+   déjà en place.
+2. **Tester `/rejoindre`** en créant un vrai personnage. Si l'onboarding
+   n'est pas fluide, personne ne jouera.
+3. **Faire tourner le tick à la main** pendant 3 jours : en session
+   interactive, taper « Lis ROUTINE-MJ.md et exécute-le ». Vérifier que le
+   récit tient la longueur (500 mots max) et reste cohérent.
+4. **Automatiser le MJ** : créer une routine quotidienne Claude Code (sur un
+   compte dédié de préférence) dont le prompt tient en une ligne :
    `Lis ROUTINE-MJ.md à la racine et exécute-le intégralement.`
-   ⚠️ Activer **« Allow unrestricted branch pushes »** côté web, sinon la
-   routine ne pousse que sur `claude/*` et l'état ne s'accumule jamais —
-   c'est le blocage n°1 au premier run. Intervalle minimum d'une heure,
-   quota journalier selon le plan ; un déclencheur API existe pour un tick
-   manuel.
-5. Ensuite seulement : `/briefing` en réel, routines joueurs (rappel à 20h
-   par ex., via `/rejoindre`), boîte aux lettres, récapitulatif
-   hebdomadaire. **Ne rien pousser au-delà de l'étape 4 avant que 1-4
-   tournent une semaine en réel.**
+   Piège classique : par défaut une routine ne pousse que sur des branches
+   `claude/*`. Activer **« Allow unrestricted branch pushes »**, sinon rien
+   ne s'enregistre jamais sur `main`.
+5. Laisser tourner 1 à 4 une semaine en réel avant d'ajouter le reste
+   (routines de rappel des joueurs, courrier entre personnages,
+   récapitulatif hebdomadaire).
 
-### Protection de branche
+**Branches et permissions.** Les `intent.md` des joueurs et les commits du
+MJ vont directement sur `main`, sans PR — c'est voulu. Tout le reste
+(nouveaux personnages, changements de règles, `world/`) passe par PR, avec
+`CODEOWNERS` comme garde-fou. Si vous activez une protection de branche
+exigeant des PR, prévoyez un bypass pour le compte du MJ ; au démarrage, le
+plus simple est de ne rien activer du tout.
 
-`CODEOWNERS` exige une approbation sur le cœur (`MJ.md`, `ROUTINE-*.md`,
-`world/`) dès qu'une ruleset impose les PR. Mais les `intent.md` et la
-routine MJ poussent **en direct sur `main`** : si vous activez une ruleset
-« require pull request », ajoutez le compte MJ en bypass et n'imposez pas de
-PR sur `souls/*/intent.md` — ou, plus simple au démarrage, pas de ruleset du
-tout : la convention fait loi, et git garde l'historique.
-
-Les prompts des routines sont versionnés ici (`ROUTINE-MJ.md`,
-`ROUTINE-JOUEUR.md`) : la logique se modifie par PR, jamais dans une
-interface web.
+**Les prompts sont dans le dépôt** (`ROUTINE-MJ.md`, `ROUTINE-JOUEUR.md`),
+pas dans l'interface web : on les fait évoluer par PR, comme le reste.
