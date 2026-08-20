@@ -11,3 +11,10 @@
    et d'une note neuve — celle d'un gond qui vient d'être touché. »
    *Ce qu'on espère : que Tibaut, qui reconnaît chaque porte du sanctuaire à sa voix,
    entende non plus un passage mais la tentative de le lui cacher.*
+
+3. « Les trois portes du sanctuaire cessent de grincer pareil. Chacune prend une voix
+   qui n'appartient qu'à elle, et qui porte jusqu'au clocher. Quand le sergent Vasque
+   en franchit une, elle dit laquelle — et à quelle heure. »
+   *Ce qu'on espère : qu'un homme qui compte les minutes depuis vingt ans se mette à
+   compter les entrées, et qu'un sergent qui préfère la petite porte à la grande
+   finisse par se faire remarquer tout seul.*
