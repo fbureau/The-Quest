@@ -1,12 +1,12 @@
 {
-  "tick": 2,
+  "tick": 3,
   "procession_au_tick": 11,
   "monde": {
     "lieu": "Mornebief",
-    "jours_avant_procession": 9,
+    "jours_avant_procession": 8,
     "reliquaire": "vide, refermé, personne n'a prononcé le mot vol",
     "quotas": {
-      "utilises": 0,
+      "utilises": 3,
       "plafond": 6
     }
   },
@@ -31,26 +31,30 @@
     "Devant le percepteur Dulac et Maître Corbin, Aubry a répété la phrase de Gastonne : il fallait faire vite, parce qu'après on ne pourrait plus entrer.",
     "Dulac a noté cette phrase dans son registre. Corbin l'a entendue.",
     "Aubry a trois jours de retard sur les quarante tréteaux de Corbin, avec du chêne acheté à crédit à Vaudroy.",
-    "Aubry a rescellé la ferrure du bahut de Gastonne le lendemain du jour où le reliquaire a été retrouvé vide ; il ignore ce rapprochement."
+    "Aubry a rescellé la ferrure du bahut de Gastonne le lendemain du jour où le reliquaire a été retrouvé vide ; il ignore ce rapprochement.",
+    "Tibaut a glissé un mot sous la porte de Gastonne : sa demande d'office de nuit, et le grincement du cellier entendu à trois heures puis quatre heures.",
+    "Gastonne a rendu l'office de nuit à Tibaut le lendemain, sans explication, pour l'avoir en hauteur plutôt qu'à écouter des portes.",
+    "Le sergent Vasque interroge la bourgade sans expliquer pourquoi ; Aubry lui a confirmé que Gastonne surveillait la porte pendant qu'il réparait son bahut.",
+    "Aubry en est à trente-trois tréteaux livrés sur quarante pour Corbin ; il compte toujours réclamer les gouges et le rabot de son père."
   ],
   "mortels": {
     "fbureau": {
       "mortel": "Tibaut",
       "lieu": "sanctuaire",
       "peur": 3,
-      "fatigue": 4,
+      "fatigue": 5,
       "courage": 2,
-      "ferveur": 3,
-      "veut": "récupérer l'office de nuit que Gastonne lui a supprimé"
+      "ferveur": 4,
+      "veut": "comprendre pourquoi Gastonne lui a rendu l'office de nuit sans explication"
     },
     "gpuj": {
       "mortel": "Aubry",
       "lieu": "auberge",
-      "peur": 4,
-      "fatigue": 6,
+      "peur": 5,
+      "fatigue": 7,
       "courage": 1,
       "ferveur": 3,
-      "veut": "récupérer les outils de son père, et livrer les quarante tréteaux de Corbin"
+      "veut": "récupérer les outils de son père, et livrer les sept derniers tréteaux de Corbin"
     }
   }
 }

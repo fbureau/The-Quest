@@ -19,3 +19,14 @@
   quatre. Personne n'est censé descendre au cellier la nuit. Il n'en a parlé à
   personne — il ne parle pas, il note.
 - Gastonne était de nouveau en retard à complies. Six minutes, cette fois.
+
+## Tick 3
+
+- Il est monté une troisième fois. La porte a grincé avant qu'il frappe, puis
+  s'est tue net — quelqu'un, de l'autre côté, avait entendu la même chose. Il
+  ne s'est pas décidé à frapper : il a écrit, au lieu de parler, sa demande
+  d'office de nuit et, par habitude, le grincement du cellier à trois heures
+  puis quatre heures, et a glissé la feuille sous la porte.
+- Le lendemain, l'office de nuit lui a été rendu, sans un mot d'explication de
+  plus que la fois où on le lui avait retiré. Vingt ans de ténacité, a-t-il
+  conclu. Il n'a pas cherché plus loin.

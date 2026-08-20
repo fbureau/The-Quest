@@ -26,3 +26,13 @@ il a trois jours de retard, et il n'en a parlé à personne.
   senti le silence et l'a mis sur le compte de son retard.
 - Il se souvient, sans y attacher d'importance, que Gastonne était pressée le jour du
   bahut, et qu'elle regardait la porte pendant qu'il travaillait.
+
+## Tick 3
+
+- A livré le trente-troisième tréteau. Le sergent Vasque s'est présenté à
+  l'atelier sans prévenir et sans expliquer pourquoi ; Aubry a répondu comme
+  toujours à tout ce qu'on lui demandait, y compris que Gastonne surveillait
+  la porte pendant qu'il réparait le bahut — un détail qu'il n'avait dit à
+  personne jusque-là, faute qu'on le lui ait demandé de la bonne façon.
+- A de nouveau remis au lendemain la démarche pour récupérer les gouges et le
+  rabot de son père. Cela fait onze jours que c'est pour demain.
