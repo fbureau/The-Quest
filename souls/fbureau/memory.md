@@ -30,3 +30,12 @@
 - Le lendemain, l'office de nuit lui a été rendu, sans un mot d'explication de
   plus que la fois où on le lui avait retiré. Vingt ans de ténacité, a-t-il
   conclu. Il n'a pas cherché plus loin.
+
+## Tick 4
+
+- Cette nuit-là, la porte du cellier n'a rien dit. Ni grincement ni note
+  neuve : rien, ce qu'il a noté comme une bonne nouvelle sans pouvoir
+  vraiment trancher ce que ce silence signifiait.
+- Un peu après trois heures, il a vu la lanterne du percepteur Dulac monter
+  vers le sanctuaire. Il l'a notée, sous l'heure, sans comprendre encore
+  pourquoi un homme qui compte des chiffres le jour grimpe une butte la nuit.

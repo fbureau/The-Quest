@@ -1,9 +1,9 @@
 {
-  "tick": 3,
+  "tick": 4,
   "procession_au_tick": 11,
   "monde": {
     "lieu": "Mornebief",
-    "jours_avant_procession": 8,
+    "jours_avant_procession": 7,
     "reliquaire": "vide, refermé, personne n'a prononcé le mot vol",
     "quotas": {
       "utilises": 3,
@@ -35,26 +35,31 @@
     "Tibaut a glissé un mot sous la porte de Gastonne : sa demande d'office de nuit, et le grincement du cellier entendu à trois heures puis quatre heures.",
     "Gastonne a rendu l'office de nuit à Tibaut le lendemain, sans explication, pour l'avoir en hauteur plutôt qu'à écouter des portes.",
     "Le sergent Vasque interroge la bourgade sans expliquer pourquoi ; Aubry lui a confirmé que Gastonne surveillait la porte pendant qu'il réparait son bahut.",
-    "Aubry en est à trente-trois tréteaux livrés sur quarante pour Corbin ; il compte toujours réclamer les gouges et le rabot de son père."
+    "Aubry en est à trente-trois tréteaux livrés sur quarante pour Corbin ; il compte toujours réclamer les gouges et le rabot de son père.",
+    "La nuit du tick 4, la porte du cellier est restée silencieuse ; Tibaut n'a pas pu trancher si cela signifiait que personne n'y descendait, ou que quelqu'un avait appris à ne plus se faire remarquer.",
+    "Tibaut a vu, un peu après trois heures, la lanterne du percepteur Dulac monter vers le sanctuaire ; il l'a notée sans en comprendre la raison.",
+    "Dulac a relevé un écart d'un jour entre la date donnée par Gastonne pour le début de la neuvaine (jeudi) et celle inscrite dans son propre registre (vendredi) ; interrogée de nuit, elle a invoqué la mémoire défaillante.",
+    "Aubry a livré son trente-septième tréteau sur quarante pour Corbin ; trois tréteaux, les bancs et deux buffets restent, et le marchand de Vaudroy repasse dans cinq jours.",
+    "Aubry a montré à Corbin une clef sans propriétaire, conservée trois ans dans un pot d'étain avec deux dés et une alliance ; Corbin l'a regardée un instant de trop avant de dire que ça ne lui disait rien."
   ],
   "mortels": {
     "fbureau": {
       "mortel": "Tibaut",
       "lieu": "sanctuaire",
-      "peur": 3,
-      "fatigue": 5,
+      "peur": 4,
+      "fatigue": 6,
       "courage": 2,
       "ferveur": 4,
-      "veut": "comprendre pourquoi Gastonne lui a rendu l'office de nuit sans explication"
+      "veut": "comprendre ce que le percepteur Dulac cherche au sanctuaire en pleine nuit"
     },
     "gpuj": {
       "mortel": "Aubry",
       "lieu": "auberge",
-      "peur": 5,
-      "fatigue": 7,
+      "peur": 6,
+      "fatigue": 8,
       "courage": 1,
       "ferveur": 3,
-      "veut": "récupérer les outils de son père, et livrer les sept derniers tréteaux de Corbin"
+      "veut": "réclamer enfin les outils de son père, et livrer les trois derniers tréteaux de Corbin"
     }
   }
 }

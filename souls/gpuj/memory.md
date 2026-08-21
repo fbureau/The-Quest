@@ -36,3 +36,13 @@ il a trois jours de retard, et il n'en a parlé à personne.
   personne jusque-là, faute qu'on le lui ait demandé de la bonne façon.
 - A de nouveau remis au lendemain la démarche pour récupérer les gouges et le
   rabot de son père. Cela fait onze jours que c'est pour demain.
+
+## Tick 4
+
+- A livré le trente-septième tréteau ; trois restent, plus les bancs et deux
+  buffets. Corbin a repris son compte jusqu'au bout cette fois, sans
+  s'arrêter comme la fois précédente.
+- En triant l'atelier, est retombé sur une clef sans propriétaire, gardée
+  trois ans dans un pot d'étain. L'a montrée à Corbin, qui l'a regardée un
+  instant de trop avant de dire que ça ne lui disait rien. S'est de nouveau
+  promis de réclamer les outils de son père — dans trois jours, cette fois.
