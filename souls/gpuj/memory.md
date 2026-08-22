@@ -46,3 +46,15 @@ il a trois jours de retard, et il n'en a parlé à personne.
   trois ans dans un pot d'étain. L'a montrée à Corbin, qui l'a regardée un
   instant de trop avant de dire que ça ne lui disait rien. S'est de nouveau
   promis de réclamer les outils de son père — dans trois jours, cette fois.
+
+## Tick 5
+
+- A travaillé la nuit entière et livré ses trente-huitième, trente-neuvième
+  et quarantième tréteaux : la commande de Corbin pour les tréteaux est
+  honorée. Restent les bancs et deux buffets, et le marchand de Vaudroy
+  repasse dans quatre jours pour un chêne qu'il n'a pas encore acheté.
+- A proposé la clef trouvée dans le pot d'étain à Corbin, qui l'a regardée
+  un instant de trop avant d'offrir de la garder chez lui « le temps qu'on
+  lui trouve un propriétaire ». Aubry, qui ne ment jamais et prête cette
+  vertu aux autres, la lui a laissée sans y repenser. S'est promis de
+  réclamer les outils de son père dès les bancs livrés.

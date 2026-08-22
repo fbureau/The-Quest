@@ -39,3 +39,13 @@
 - Un peu après trois heures, il a vu la lanterne du percepteur Dulac monter
   vers le sanctuaire. Il l'a notée, sous l'heure, sans comprendre encore
   pourquoi un homme qui compte des chiffres le jour grimpe une butte la nuit.
+
+## Tick 5
+
+- La nuit suivante, ni la lanterne ni la porte n'ont donné signe de vie ; il
+  a guetté jusqu'à quatre heures sans rien à noter, ce qui l'a inquiété
+  presque autant qu'une nuit bruyante.
+- Dulac est monté au clocher lui demander l'heure exacte de complies, huit
+  jours plus tôt : dix-neuf heures six, puis dix-neuf heures pile le
+  lendemain. Il a répondu sans réfléchir à ce que ça prouvait — il ne sait
+  pas taire un chiffre exact, même à un percepteur.
