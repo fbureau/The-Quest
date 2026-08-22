@@ -12,8 +12,8 @@
    *Ce qu'on espère : que personne ne monte, que personne ne le fasse descendre, et
    qu'un homme qui n'a pas dormi depuis quatre nuits dorme une fois.*
 
-3. « Quand le percepteur Dulac reviendra chez la prieure avec son jeudi contre son
-   vendredi, la porte de Gastonne ne tiendra pas close. Elle bâille d'un doigt, et
-   grince à chaque fois qu'on tente de la repousser. »
-   *Ce qu'on espère : que ce qui se dit derrière monte jusqu'au clocher, et que
-   Tibaut apprenne enfin ce qu'un percepteur vient chercher au sanctuaire la nuit.*
+3. « La porte de la pièce du bas ne tient plus son loquet. Elle bâille, elle grince,
+   elle ne ferme pas, et elle empire chaque fois qu'on la reprend. »
+   *Ce qu'on espère : qu'on ne puisse loger personne derrière une porte pareille, et
+   qu'une prieure qui préfère déplacer les problèmes plutôt que les résoudre renonce
+   à descendre son sonneur du clocher six jours avant la Procession.*
