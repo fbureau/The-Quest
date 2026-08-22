@@ -45,7 +45,7 @@ Exécute dans l'ordre, sans sauter d'étape :
    - chaque `souls/<slug>/intent.md` : **vidé** (fichier vide, non supprimé) ;
    - `chronicles/tick-<N+1 sur 4 chiffres>.md` : le chapitre, avec son pied de page.
      Avant de committer, **compte les mots du corps** (titre et pied de page exclus) :
-     entre 550 et 750. En dessous, tu as écrit un compte-rendu — reprends.
+     entre 300 et 450. Au-delà, coupe les commentaires du narrateur, jamais les faits.
 9. Commit unique, message `chapitre <N+1> — <titre>`, puis **`git push -u origin
    main`**. Tout doit atterrir sur `main` : l'état s'y accumule d'un tick au suivant,
    le contrôle d'idempotence de l'étape 2 y lit `chronicles/`, les joueurs y font

@@ -1,111 +1,67 @@
-# Le style de la Chronique
+# Comment s'écrit un chapitre
 
-Ce fichier est lu par le MJ **à chaque tick**, avant d'écrire. Il ne contient
-aucune règle de jeu : uniquement la manière de raconter. Les faits viennent de
-`state.json` ; la prose vient d'ici.
+Lu par le MJ à chaque tick, avant d'écrire.
 
-La référence est le **fantastique comique classique à l'anglaise**, Terry Pratchett
-en tête, transposé en français. Ce n'est pas une affaire de blagues : c'est une
-affaire de **narrateur**.
+## La règle qui prime sur toutes les autres
 
----
+**Il se passe quelque chose.** Un chapitre où personne ne subit de conséquence est
+un chapitre raté, même bien écrit. Avant de rédiger, réponds à trois questions :
+qu'est-ce qui a changé aujourd'hui ? qui l'a payé ? dans quoi chaque mortel se
+réveille-t-il demain ? Si tu ne sais pas répondre, tu n'as pas encore de chapitre.
 
-## Le narrateur
+## Le chapitre appartient aux mortels des joueurs
 
-Il est plus vieux que tous les personnages, il connaît Mornebief depuis avant eux,
-il a vu passer d'autres Processions et d'autres prieures. Il n'est jamais surpris.
-Il a un avis, qu'il glisse sans jamais le souligner. Et il aime ses personnages,
-même quand ils sont ridicules — **surtout** quand ils sont ridicules. Un narrateur
-qui méprise ses mortels écrit une farce ; un narrateur qui les respecte écrit un
-roman.
+Ce sont **eux**, les personnages principaux. Gastonne, Corbin, Vasque et Dulac sont
+des obstacles, pas des vedettes. Si un chapitre parle plus des figures de Mornebief
+que des mortels, il est à refaire.
 
-Il ne dit jamais qu'une chose est drôle. Il la pose, et il passe.
+Chaque mortel finit le chapitre devant **un problème concret**, que sa divinité
+pourra essayer de traiter demain dans les limites de son portefeuille. C'est ce qui
+donne envie d'ouvrir sa session — pas la qualité de la prose.
 
-## Les huit procédés
+## Longueur : 300 à 450 mots
 
-**1. La digression enchâssée.** Une subordonnée part sur un détail du monde, puis
-la phrase revient à son sujet comme si de rien n'était. C'est ce qui fait exister
-la bourgade entre deux actions.
+Une minute trente de lecture. Si tu dépasses, tu coupes les commentaires du
+narrateur — jamais les faits.
 
-> Le sanctuaire possédait trois portes, dont une que nul n'avait ouverte depuis la
-> crue et que la bourgade tenait désormais pour close par décision divine, ce qui
-> arrangeait tout le monde.
+## La forme
 
-**2. La chute courte.** Une phrase longue qui monte, puis une phrase brève qui
-retombe. Le rythme fait la moitié du comique.
+- **Phrases courtes.** Sujet, verbe, complément. Une idée par phrase.
+- **Paragraphes de deux à quatre lignes.** Beaucoup de blanc.
+- **Du dialogue**, au moins trois répliques par chapitre. Rien ne se lit plus vite,
+  et rien ne montre mieux un caractère.
+- **Les faits, pas les commentaires.** Montre Corbin s'arrêter de compter ; n'écris
+  pas ce que ça signifie.
+- **Une seule trouvaille comique par chapitre.** Elle naît de la situation, jamais
+  de la tournure. Et on ne la commente pas.
 
-> La prieure répondit qu'elle non plus, et ce fut la seule phrase entièrement vraie
-> de la conversation.
+## Interdits
 
-**3. Le chiffre précis.** Jamais « beaucoup », jamais « quelques ». Quatre cent onze
-objets. Six minutes de retard. Neuf mille quatre cents offices. La précision fait
-vrai, et le trop-précis fait rire tout seul.
+Ce sont exactement les défauts qui ont rendu les premiers chapitres illisibles :
 
-**4. La logique interne des imbéciles.** Aucun personnage n'est bête : chacun
-raisonne impeccablement à partir de prémisses fausses. **Toujours montrer le
-raisonnement** — c'est là qu'est le comique, et c'est ce qui rend le personnage
-attachant plutôt que méprisable.
+- **L'aphorisme de fin de paragraphe.** « ...ce qui est une position confortable et
+  ne dure jamais. » Jamais.
+- **La digression entre tirets** qui repousse le verbe de trois lignes.
+- **Le chiffre-gag accumulé.** Un chiffre précis par chapitre suffit.
+- **Le narrateur qui explique les gens** au lieu de les montrer agir.
+- **Trois adjectifs** là où aucun ne manquerait.
+- **Le pastiche.** On vise le sérieux imperturbable, pas l'imitation de style.
 
-> Il conclut que c'était son retard, se promit de travailler la nuit, et repartit
-> avec la conscience tranquille d'un homme qui vient de vendre quelqu'un sans s'en
-> apercevoir.
+## Le ton, en une ligne
 
-**5. La bureaucratie comme force de la nature.** Le Panthéon, le registre de Dulac,
-les quotas. On ne les combat pas, on les subit comme la pluie. Traiter
-l'administratif avec le sérieux qu'on réserve d'ordinaire au tragique.
+Sérieux, sobre, rapide. Les faits sont absurdes, la phrase ne l'est pas. Les
+personnages ne sont jamais bêtes : ils raisonnent juste à partir de prémisses
+fausses, et on les aime pour ça.
 
-**6. La majuscule d'institution.** La Procession. Le Doigt. Le Registre. Mettre une
-majuscule à une chose ordinaire l'élève et la dégonfle du même geste.
+## La cohérence
 
-**7. L'annonce du désastre, sans la date.** Le narrateur sait ce qui va arriver et
-le laisse entendre, jamais complètement.
-
-> C'est une habitude qui passe pour de la discrétion tant que personne n'a besoin
-> d'un témoin.
-
-**8. La comparaison domestique.** Concrète, ménagère, artisanale. Jamais poétique,
-jamais céleste. On compare une angoisse à une porte qui ferme mal, pas à un ciel
-d'orage.
-
-## Ce qui tue le chapitre
-
-- **La phrase-constat en rafale.** « Il nota cela. Il note tout. » Sèchement mises
-  bout à bout, ces phrases font un procès-verbal. Une seule par paragraphe, comme
-  chute — jamais trois de suite.
-- **Le clin d'œil.** Commenter sa propre blague, ou la souligner par un adverbe.
-- **L'adjectif à la place du fait.** « Une scène embarrassante » ne vaut rien ;
-  montrer Corbin s'arrêter de compter à vingt-deux vaut tout.
-- **Le résumé d'actions.** « Puis il alla, puis il fit, puis il dit. » Une action
-  qui ne porte ni caractère ni conséquence n'a pas à figurer.
-- **Le mortel qui devine.** Ils comprennent toujours de travers. C'est le lecteur
-  qui comprend, et c'est tout le plaisir.
-
-## La cohérence, d'un chapitre au suivant
-
-Le récit doit se tenir sur onze chapitres. Quatre exigences, aussi dures que les
-règles du jeu :
-
-1. **Rattacher.** La première phrase reprend un fil du chapitre précédent. Un
-   joueur qui a sauté trois jours doit pouvoir rentrer.
-2. **Payer et poser.** Chaque chapitre paie une mise en place antérieure, et en
-   pose une nouvelle. Un chapitre qui ne fait ni l'un ni l'autre est une journée
-   perdue.
-3. **Rien de décisif ne surgit de nulle part.** Un élément qui compte doit avoir
-   été mentionné au moins une fois avant de servir. Le `canon` de `state.json` est
-   là pour ça : relis-le entièrement, et cite-le par les objets et les chiffres qui
-   y figurent déjà — la commande de bière doublée, les six minutes de retard, les
-   quarante tréteaux.
-4. **Les objets reviennent.** Un objet nommé dans un chapitre doit reparaître.
-   C'est ce qui distingue un monde d'un décor.
-
-## La longueur
-
-**Entre 550 et 750 mots.** Le plancher compte autant que le plafond : en dessous
-de 550, on retombe mécaniquement dans le compte-rendu. Deux à trois minutes de
-lecture sur un téléphone.
+- Première phrase : où on en était. Un joueur qui a sauté trois jours doit rentrer.
+- Rien de décisif ne surgit de nulle part : relis le `canon` entier, et sers-toi de
+  ce qui y est déjà — les quarante tréteaux, les six minutes de retard, la commande
+  de bière doublée.
+- Un objet nommé une fois doit reparaître.
 
 ## Le chapitre témoin
 
-`chronicles/tick-0002.md` est la référence de ton. Relis-le avant d'écrire. Les
-faits qu'il rapporte sont exactement ceux qu'un compte-rendu aurait listés en
-quinze lignes ; c'est la manière de les rapporter qui en fait un chapitre.
+`chronicles/tick-0002.md`. Relis-le avant d'écrire : c'est la longueur, le rythme et
+le niveau d'événement attendus.

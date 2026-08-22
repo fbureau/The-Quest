@@ -49,3 +49,6 @@
   jours plus tôt : dix-neuf heures six, puis dix-neuf heures pile le
   lendemain. Il a répondu sans réfléchir à ce que ça prouvait — il ne sait
   pas taire un chiffre exact, même à un percepteur.
+- Gastonne lui a réclamé la clef du clocher, « pour ranger ». Il y loge depuis vingt
+  ans. Il a dit qu'il la rapporterait demain matin, sans savoir où il dormirait
+  ensuite, et sans le lui demander.
