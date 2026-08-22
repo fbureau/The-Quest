@@ -58,6 +58,3 @@ il a trois jours de retard, et il n'en a parlé à personne.
   lui trouve un propriétaire ». Aubry, qui ne ment jamais et prête cette
   vertu aux autres, la lui a laissée sans y repenser. S'est promis de
   réclamer les outils de son père dès les bancs livrés.
-- Corbin l'a rattrapé dans la rue pour lui faire répéter la phrase de la prieure,
-  puis lui a donné rendez-vous à l'atelier ce soir « pour parler du paiement ».
-  Aubry est reparti content.

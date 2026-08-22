@@ -44,15 +44,13 @@
     "Dulac a demandé à Tibaut l'heure exacte de complies huit jours plus tôt : dix-neuf heures six, en retard de six minutes, puis dix-neuf heures pile le lendemain — confirmant l'écart d'un jour entre sa date et celle de Gastonne pour le début de la neuvaine.",
     "Aubry a livré ses trente-huitième, trente-neuvième et quarantième tréteaux à Corbin : la commande de quarante tréteaux est honorée avec quatre jours de retard sur les neuf annoncés ; restent les bancs et deux buffets, et le marchand de Vaudroy repasse dans quatre jours.",
     "Corbin a proposé de garder chez lui la clef sans propriétaire trouvée par Aubry ; Aubry la lui a confiée.",
-    "La nuit du tick 5, ni la lanterne de Dulac ni la porte du cellier ne se sont manifestées.",
-    "Gastonne a réclamé à Tibaut la clef du clocher où il loge depuis vingt ans ; il doit la rapporter demain matin.",
-    "Corbin a fait répéter à Aubry la phrase de la prieure, puis lui a donné rendez-vous à l'atelier le soir même, sous prétexte de parler du paiement."
+    "La nuit du tick 5, ni la lanterne de Dulac ni la porte du cellier ne se sont manifestées."
   ],
   "mortels": {
     "fbureau": {
       "mortel": "Tibaut",
-      "lieu": "clocher",
-      "peur": 5,
+      "lieu": "sanctuaire",
+      "peur": 4,
       "fatigue": 7,
       "courage": 2,
       "ferveur": 4,
@@ -61,7 +59,7 @@
     "gpuj": {
       "mortel": "Aubry",
       "lieu": "atelier",
-      "peur": 5,
+      "peur": 7,
       "fatigue": 9,
       "courage": 1,
       "ferveur": 3,
